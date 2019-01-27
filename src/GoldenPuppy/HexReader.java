@@ -27,7 +27,11 @@ public class HexReader extends Thread
 	public int pop(){
 		return temp_stack.pop();
 	}
+	public String popStr(){
+		return String.valueOf(temp_stack.pop());
+	}
 	public int peek(){
 		return temp_stack.peek();
 	}
+	
 }
